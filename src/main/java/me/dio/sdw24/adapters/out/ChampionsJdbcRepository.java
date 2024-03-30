@@ -1,7 +1,7 @@
 package me.dio.sdw24.adapters.out;
 
 import me.dio.sdw24.domain.model.Champions;
-import me.dio.sdw24.ports.ChampionsRepository;
+import me.dio.sdw24.domain.ports.ChampionsRepository;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;

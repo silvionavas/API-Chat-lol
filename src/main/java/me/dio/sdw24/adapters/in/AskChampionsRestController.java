@@ -13,6 +13,7 @@ import java.util.List;
 @RequestMapping("/champions")
 public record AskChampionsRestController(AskChampionUseCase useCase) {
 
+    @CrossOrigin
     @PostMapping("/{championId}/ask")
     public AskChampionResponse askChampion(@PathVariable Long championId, @RequestBody AskChampionRequest request) {
 

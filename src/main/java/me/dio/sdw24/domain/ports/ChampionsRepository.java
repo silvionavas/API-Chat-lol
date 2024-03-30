@@ -1,4 +1,4 @@
-package me.dio.sdw24.ports;
+package me.dio.sdw24.domain.ports;
 
 import me.dio.sdw24.domain.model.Champions;
 
